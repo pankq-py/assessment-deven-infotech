@@ -1,0 +1,13 @@
+1. create A Login Page with Email and password as a filed (username and password should be static like admin/admin. If user tried to use other than this then show invalid credentials error message)
+
+2. create a simple table and bind the get api to fetch the data in the table using the below api fetch the data in table 
+get api:"https://api.publicapis.org/entries"a
+
+3. Using Routing in one single page Make 3 Tabs where  In first Tab you will be showing Table listing page in point 2,and 2nd tab make it about page and 3rd tab make it contact us page
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+npm install react-bootstrap
+npm install bootstrap
+npm install react-router-dom@latest
