@@ -39,7 +39,7 @@ export const SignIn = () => {
     }
     const loginSubmit = (e) => {
         e.preventDefault();
-        if (handleValidation() == true) {
+        if (handleValidation() === true) {
             redirectToHome();
         }
     };
@@ -47,7 +47,7 @@ export const SignIn = () => {
     return (
         <>
             <div className="row d-flex row justify-content-center">
-                <div className="form-outline m-4 col-3 align-item-center">
+                <div className="form-outline m-4 col-4 align-item-center">
                 <h2 className="display-4">Login</h2>
                     <form id="loginform" onSubmit={loginSubmit}>
                         <hr></hr>
